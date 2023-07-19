@@ -1,0 +1,106 @@
+
+@font-face {
+    font-family: 'PublicPixel';
+    src: url(fonts/PublicPixel-0W5Kv.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'PublicPixel', 'sans-serif';
+}
+.head-img{
+    width: 200px;
+}
+.card-header{
+    background: rgba(129,106,246,255)!important;
+    
+}
+.events-card{
+    background: rgba(229,214,255,255)!important;
+    border: 2px solid!important;
+}
+.token-events-header{
+    border-bottom: 2px solid!important;
+}
+.header-heading{
+    position: relative;
+    top: 50px;
+    right: 50px;
+    font-size: 32px;
+}
+.sub-heading{
+    position: relative;
+    top: 45px;
+    right: 50px;
+}
+
+@media only screen and (max-width:320px){
+    .head-img{
+        width: 170px;
+        position: relative;
+        left: -28px;
+    }
+    .header-heading{
+        position: relative;
+        right: 30px;
+        font-size: 24px;
+        top: -15px;
+    }
+    .sub-heading{
+        position: relative;
+        left: -49px;
+        top: -20px;
+    }
+    }
+@media only screen and (max-width:425px){
+    .head-img{
+        width: 120px;
+    }
+    .header-heading{
+        position: fixed;
+        font-size: 16px;
+    }
+    .sub-heading{
+        position: relative;
+        right: 159px;
+        top: 70px;
+        font-size: 10px;
+    }
+    .card-label{
+        font-size: 24px!important;
+    }
+    }
+@media only screen and (max-width: 768px){
+    .head-img{
+        position: relative;
+        right: 100px;
+    }
+    .header-heading{
+        position: fixed;
+    }
+    .sub-heading{
+        position: relative;
+        top: 88px;
+        right: 120px;
+    }
+    }
+    @media only screen and (max-width:375px){
+        .head-img{
+            width: 120px;
+        }
+        .header-heading{
+            font-size: 18px;
+            position: relative;
+            top: 18px;
+            right: 101px;
+        }
+        .sub-heading{
+            position: relative;
+            top: 10px;
+            font-size: 10px;
+        }
+        .card-label{
+            font-size: 24px!important;
+        }
+    }
